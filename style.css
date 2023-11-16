@@ -50,6 +50,7 @@ nav {
   color: var(--color-6);
   font-weight: 700;
   line-height: 1.55;
+  font-size: 18px;
   transition: background-color 0.2s ease-in;
   cursor: pointer;
   z-index: 99;
@@ -244,6 +245,7 @@ nav {
   color: var(--color-6);
   font-weight: 700;
   line-height: 1.55;
+  font-size: 18px;
   transition: background-color 0.2s ease-in;
   cursor: pointer;
   z-index: 99;
