@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <a href="#" class="logo"
+            ><img src="./images/skilled.svg" alt="logo"
+          /></a>
+          <button class="header__btn">Get Started</button>
+        </nav>
+        <div class="cta">
+          <div class="cta__block">
+            <h2 class="cta__title">Maximize skill, minimize budget</h2>
+            <p class="cta__text">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <button class="cta__btn">Get Started</button>
+          </div>
+          <div class="cta__photo">
+            <!-- <img src="./images/image-hero-desktop.png" alt="girl" /> -->
+            <img
+              srcset="
+                ./images/image-hero-mobile.png   425w,
+                ./images/image-hero-tablet.png   695w,
+                ./images/image-hero-desktop.png 1046w
+              "
+              sizes="(max-width: 620px) 425px,
+                   (max-width: 1110px) 695px,
+                   (min-width: 1111px) 1046px"
+              src="./images/image-hero-desktop.png"
+              alt="girl"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container">
+        <div class="main__card_red">
+          <h3>Check out our most popular courses!</h3>
+        </div>
+        <div class="main__card main__card_animation">
+          <h3 class="main__title">Animation</h3>
+          <p class="main__text">
+            Learn the latest animation techniques to create stunning motion
+            design and captivate your audience.
+          </p>
+          <a href="#" class="main__link">Get Started</a>
+        </div>
+        <div class="main__card main__card_design">
+          <h3 class="main__title">Design</h3>
+          <p class="main__text main__text_design">
+            Create beautiful, usable interfaces to help shape the future of how
+            the web looks.
+          </p>
+          <a href="#" class="main__link">Get Started</a>
+        </div>
+        <div class="main__card main__card_photography">
+          <h3 class="main__title">Photography</h3>
+          <p class="main__text main__text_photography">
+            Explore critical fundamentals like lighting, composition, and focus
+            to capture exceptional photos.
+          </p>
+          <a href="#" class="main__link">Get Started</a>
+        </div>
+        <div class="main__card main__card_crypto">
+          <h3 class="main__title">Crypto</h3>
+          <p class="main__text">
+            All you need to know to get started investing in crypto. Go from
+            beginner to advanced with this 54 hour course.
+          </p>
+          <a href="#" class="main__link">Get Started</a>
+        </div>
+        <div class="main__card main__card_business">
+          <h3 class="main__title">Business</h3>
+          <p class="main__text">
+            A step-by-step playbook to help you start, scale, and sustain your
+            business without outside investment.
+          </p>
+          <a href="#" class="main__link">Get Started</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <nav>
+          <a href="#" class="logo"
+            ><img src="./images/skilled_wh.svg" alt="logo"
+          /></a>
+          <button class="footer__btn">Get Started</button>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
