@@ -81,6 +81,7 @@ nav {
   line-height: 1.55;
   color: #83869a;
   padding-bottom: 40px;
+  max-width: 445px;
 }
 .cta__btn {
   border: none;
